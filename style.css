@@ -1,0 +1,105 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+html {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+figure {
+    max-width: 350px;
+    margin: 0 1rem;
+    color: hsl(0, 0%, 95%);
+}
+figure img {
+    margin: 3.5rem 3.5rem 3rem 3.5rem;
+}
+figure h2 {
+    font-size: 40px;
+    margin: 0 3.5rem;
+    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+figure p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin: 2rem 3.5rem 1rem 3.5rem;
+    line-height: 2;
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+figure button {
+    margin: 0 0 3rem 3.5rem;
+    width: 40%;
+    height: 3rem;
+    border-radius: 9999px; /* using 50% makes an ellipse if the sides of an elements have different lengths */
+    border: none;
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    transition: 0.15s ease-in-out;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+figure.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 5rem;
+}
+figure.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+figure.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 5rem;
+}
+figure.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+figure.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+figure.sedans button:focus {
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+figure.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+figure.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+figure.suvs button:focus {
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+figure.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+figure.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+figure.luxury button:focus {
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
